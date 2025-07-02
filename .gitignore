@@ -1,0 +1,15 @@
+# Ignore model files
+*.h5
+*.keras
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment (kalau ada)
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
