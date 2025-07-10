@@ -14,8 +14,6 @@ The app allows users to upload an image of a person’s face, and within seconds
 ## Dataset
 I got the dataset from Kaggle (https://www.kaggle.com/omkargurav/face-mask-dataset). The data consists of 7553 photos. The photos are .jpg with 3 channels (RGB). 3725 face photos with masks and 3828 face photos without masks with various photo sizes.
 
-## Project Inpiration
-
 
 ## 🚀 Features
 
