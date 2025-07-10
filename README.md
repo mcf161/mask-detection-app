@@ -53,3 +53,18 @@ mask-detection-app/
 2. Go to streamlit.io/cloud and sign in.
 3. Click "New app", choose the repository and the app.py file.
 4. Click "Deploy".
+
+---
+
+## ⚠️ Limitations
+
+While the Mask Detection App is functional and demonstrates the integration of deep learning with a web interface, it has several limitations:
+
+- **Model Size and Loading Time:** The trained model (.h5 file) is over 100MB in size, which causes a noticeable delay when the app loads, especially on first launch or on slower internet connections.
+- **Limited Dataset:** The model was trained on a relatively small and specific dataset, which may lead to reduced accuracy when tested on real-world images with different lighting, angles, or backgrounds.
+- **No Real-Time Detection:** The app only works on static images. It does not support real-time webcam input or video-based detection, which limits its practical use in dynamic environments.
+- **Binary Classification Only:** The model only distinguishes between two classes: “with mask” and “without mask.” It does not detect incorrect mask usage (e.g., nose uncovered).
+- **No User Feedback or Logging:** There is no mechanism for users to provide feedback on incorrect predictions, nor is there a logging system to collect data for further training or improvement.
+
+Despite these limitations, the app serves well as a proof of concept and educational project. Future iterations could address these issues by improving dataset quality, optimizing the model size, and expanding the feature set.
+
